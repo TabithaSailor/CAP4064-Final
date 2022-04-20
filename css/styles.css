@@ -1,0 +1,126 @@
+body, header, nav, main, footer, h1, div, img, ul{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+
+
+
+/*Body Styles */
+body{
+    background-color: rgb(14, 198, 211);
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+/*Header Styles*/
+header{
+    background-color: #fff;
+    height: 240px;
+    position: -webkit-sticky; /* header wont move*/
+    position: sticky;
+    top: 0;
+}
+
+header img{
+    margin: 0 auto;
+}
+
+/*Navigation Styles*/
+nav{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    font-size: 1.75em;
+    font-family: 'Anek Malayalam', sans-serif;
+    }
+
+nav li a{
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/*Paragraph & Header Styles*/
+h1, h2, h4 {color: rgb(108, 39, 187);   
+    line-height: 40px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-justify: inter-word; }
+
+
+main p{ color: rgb(108, 39, 187);  
+        font-size: 30px; 
+        font-weight: bold;
+        line-height: 30px; 
+        margin: 0 0 24px;  
+        text-justify: inter-word; }
+
+main li{
+    text-decoration:solid;
+    list-style-type:square;
+    margin: 0 0 24px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/*Images Styles*/
+img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#contact{
+    text-align: center;
+}
+
+.border{
+    border: 5px inset rgb(177, 207, 3);
+    border-radius: 20%;
+}
+
+#welcome{
+    text-align: center;
+}
+
+#jelly, #cloud, #icee{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+.map{
+    border:8px solid #FFF;
+    height: 200;
+    width: 200;
+}
+
+footer p{
+    font-size: 01.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0.1em;
+}
+
+footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: rgb(108, 39, 187);
+    background-color: #fff;
+    font-size: 40px;
+}
